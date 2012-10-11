@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo
+echo "Welcome to Netrunner!"
+echo " * Documentation:  http://www.netrunner-os.com/"
+

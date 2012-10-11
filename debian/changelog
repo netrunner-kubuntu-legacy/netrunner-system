@@ -1,0 +1,126 @@
+netrunner-system (1.0.22) enigma; urgency=low
+
+  * Initial enigma release
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Wed, 19 Sep 2012 10:26:24 +0200
+
+netrunner-system (1.0.21) dryland-se; urgency=low
+
+  * Initial Dryland-SE release
+
+ -- Fred <fred@linuxmint.com>  Fri, 14 May 2012 10:30:00 +0200
+
+netrunner-system (1.0.20) dryland; urgency=low
+
+  * Fix triggers
+
+ -- Fred <fred@linuxmint.com>  Fri, 13 Apr 2012 10:07:50 +0200
+
+netrunner-system (1.0.19) dryland; urgency=low
+
+  * Prepare next distribution
+
+ -- fred <fred@linuxmint.com>  Fri, 13 Apr 2012 10:02:42 +0200
+
+netrunner-system (1.0.18) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Mon,  06 Feb 2012 09:42:00 +0000
+
+netrunner-system (1.0.17) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Tue,  02 Feb 2012 21:06:00 +0000
+
+netrunner-system (1.0.16) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Sun,  29 Jan 2012 19:55:00 +0000
+
+netrunner-system (1.0.15) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Sun,  29 Jan 2012 19:55:00 +0000
+
+netrunner-system (1.0.14) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Sun,  29 Jan 2012 19:55:00 +0000
+
+netrunner-system (1.0.13) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Sun,  29 Jan 2012 19:55:00 +0000
+
+netrunner-system (1.0.12) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Sun,  29 Jan 2012 19:55:00 +0000
+
+netrunner-system (1.0.11) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Sun,  6 Nov 2011 10:13:00 +0000
+
+netrunner-system (1.0.10) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Sun,  6 Nov 2011 10:13:00 +0000
+
+netrunner-system (1.0.9) dryland; urgency=low
+
+  * Dryland
+
+ -- Phoenix <phoenix@netrunner-os.com>  Sun,  6 Nov 2011 10:13:00 +0000
+
+netrunner-system (1.0.8) chromatic; urgency=low
+
+  * Removes plasma-netbook and kubuntu-desktop
+
+ -- Phoenix <phoenix@netrunner-os.com>  Thu,  17 Feb 2011 11:11:00 +0000
+
+netrunner-system (1.0.7) chromatic; urgency=low
+
+  * Adjustments for openoffice's ooffice launcher
+
+ -- Phoenix <phoenix@netrunner-os.com>  Fri,  4 Feb 2011 12:46:00 +0000
+
+netrunner-system (1.0.5) chromatic; urgency=low
+
+  * Adjustments for openoffice's ooffice launcher
+
+ -- Phoenix <phoenix@netrunner-os.com>  Wed,  19 Jan 2011 11:40:00 +0000
+
+netrunner-system (1.0.4) chromatic; urgency=low
+
+  * Adjustments for openoffice, gdm, motd and xsession
+
+ -- Phoenix <phoenix@netrunner-os.com>  Mon,  17 Jan 2011 11:45:00 +0000
+
+netrunner-system (1.0.3) chromatic; urgency=low
+
+  * Chromatic
+
+ -- Phoenix <phoenix@netrunner-os.com>  Sun,  31 Oct 2010 13:51:00 +0000
+
+netrunner-system (1.0.1) blacklight; urgency=low
+
+  * Added software-properties templates
+
+ -- Phoenix <phoenix@netrunner-os.com>  Tue,  15 Jun 2010 17:21:00 +0000
+
+netrunner-system (1.0.0) blacklight; urgency=low
+
+  * v1
+
+ -- Phoenix <phoenix@netrunner-os.com>  Thu,  20 May 2010 17:21:00 +0000
+

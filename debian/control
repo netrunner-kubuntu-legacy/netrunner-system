@@ -1,0 +1,14 @@
+Source: netrunner-system
+Section: admin
+Priority: optional
+Maintainer: Phoenix <phoenix@netrunner-os.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: netrunner-system
+Architecture: all
+Conflicts: plasma-netbook, kubuntu-desktop
+Replaces: plasma-netbook, kubuntu-desktop
+Depends: plymouth-theme-netrunner-logo, plymouth-theme-netrunner-text
+Description: Netrunner System Base Package
+ Netrunner information and adjustment system.

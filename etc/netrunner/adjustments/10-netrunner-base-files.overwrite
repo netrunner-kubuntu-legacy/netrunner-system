@@ -1,0 +1,2 @@
+/usr/share/netrunner/adjustments/motd/10-help-text /etc/update-motd.d/10-help-text
+/usr/share/netrunner/adjustments/addShowActivitiesManagerPlasmoid.js /usr/share/kde4/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js

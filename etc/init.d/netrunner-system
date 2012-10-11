@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/usr/lib/netrunner/system/adjust.py
+
