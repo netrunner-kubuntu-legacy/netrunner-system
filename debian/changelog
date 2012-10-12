@@ -1,3 +1,9 @@
+netrunner-system (1.0.23) dryland-te; urgency=low
+
+  * Initial Dryland TE release
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Fri, 12 Oct 2012 12:36:35 +0200
+
 netrunner-system (1.0.22) enigma; urgency=low
 
   * Initial enigma release
