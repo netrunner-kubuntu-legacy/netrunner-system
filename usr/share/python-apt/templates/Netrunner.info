@@ -1,12 +1,12 @@
 ChangelogURI: http://changelogs.netrunner-os.com/changelogs/pool/%s/%s/%s/%s_%s/changelog
 
-Suite: enigma
+Suite: dryland-te
 RepositoryType: deb
 BaseURI: http://packages.netrunner-os.com/
 MatchURI: packages.netrunner-os.com
 MirrorsFile-amd64: /usr/share/python-apt/templates/Netrunner.mirrors
 MirrorsFile-i386: /usr/share/python-apt/templates/Netrunner.mirrors
-Description: Netrunner 5 'Enigma'
+Description: Netrunner 4.3 'Dryland Third Edition'
 Component: main
 CompDescription: Main packages
 CompDescriptionLong: Main packages
