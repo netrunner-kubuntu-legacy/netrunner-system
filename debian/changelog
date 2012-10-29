@@ -1,3 +1,9 @@
+netrunner-system (1.0.24) dryland-te; urgency=low
+
+  * Change release number
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Mon, 29 Oct 2012 10:23:36 +0100
+
 netrunner-system (1.0.23) dryland-te; urgency=low
 
   * Initial Dryland TE release
