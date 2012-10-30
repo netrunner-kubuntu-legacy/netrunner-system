@@ -19,6 +19,11 @@ set -e
 case "$1" in
     configure)
 	update-rc.d netrunner-system start 51 S .
+     # Set the netrunner lightdm background.
+      if [ -e /etc/lightdm/lightdm-kde-greeter.conf ]
+     then
+       sed -i "s@^Background=.*@Background=/usr/share/wallpapers/Dryland - Third Edition - The Path/contents/images/1920x1200.jpg@"  /etc/lightdm/lightdm-kde-greeter.conf
+      fi
     ;;
     abort-upgrade|abort-remove|abort-deconfigure)
 

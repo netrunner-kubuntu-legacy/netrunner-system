@@ -1,3 +1,9 @@
+netrunner-system (1.0.25) dryland-te; urgency=low
+
+  * Set lightDM background
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Tue, 30 Oct 2012 11:14:48 +0100
+
 netrunner-system (1.0.24) dryland-te; urgency=low
 
   * Change release number
