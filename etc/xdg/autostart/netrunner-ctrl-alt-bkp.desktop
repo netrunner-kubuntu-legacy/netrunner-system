@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[fr]=
+Comment=
+Encoding=UTF-8
+Exec=setxkbmap -option terminate:ctrl_alt_bksp
+GenericName[fr]=
+GenericName=
+MimeType=
+Name[fr]=Ctrl Alt Backspace
+Name=Ctrl Alt Backspace
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
