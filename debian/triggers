@@ -1,7 +1,2 @@
-interest /usr/lib/openoffice/program
-interest /etc/firefox/profile
-interest /usr/share/sounds/startup.wav
-interest /usr/share/system-config-printer
-interest /usr/share/opera
-interest /etc/netrunner/adjustments
-
+interest /etc/update-motd.d/10-help-text
+interest /etc/lightdm/lightdm-kde-greeter.conf

@@ -1,3 +1,9 @@
+netrunner-system (1.0.26) enigma-1306; urgency=low
+
+  * Initial Enigma release
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Fri, 15 Mar 2013 11:56:35 +0100
+
 netrunner-system (1.0.25) dryland-te; urgency=low
 
   * Set lightDM background
