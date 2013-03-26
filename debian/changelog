@@ -1,3 +1,9 @@
+netrunner-system (1.0.27) enigma-1306; urgency=low
+
+  * Set background Image
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Sat, 23 Mar 2013 10:03:49 +0100
+
 netrunner-system (1.0.26) enigma-1306; urgency=low
 
   * Initial Enigma release
