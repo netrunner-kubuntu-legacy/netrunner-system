@@ -10,6 +10,9 @@ Description: Netrunner 5 'Enigma' (13.06)
 Component: main
 CompDescription: Main packages
 CompDescriptionLong: Main packages
+Component: unstable
+CompDescription: Unstable packages
+CompDescriptionLong: Unstable packages
 Component: restricted
 CompDescription: Restricted packages
 CompDescriptionLong: Restricted packages
@@ -19,7 +22,6 @@ CompDescriptionLong: Universe packages
 Component: multiverse
 CompDescription: Multiverse packages
 CompDescriptionLong: Multiverse packages
-
 
 Suite: dryland-te
 RepositoryType: deb
