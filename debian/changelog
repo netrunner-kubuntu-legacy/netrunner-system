@@ -1,3 +1,9 @@
+netrunner-system (1.0.29) enigma-1306; urgency=low
+
+  * BETA3
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Mon, 29 Apr 2013 11:42:49 +0200
+
 netrunner-system (1.0.28) enigma-1306; urgency=low
 
   * Fix mirrors
