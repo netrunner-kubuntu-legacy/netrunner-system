@@ -22,7 +22,7 @@ case "$1" in
      # Set the netrunner lightdm background.
       if [ -e /etc/lightdm/lightdm-kde-greeter.conf ]
      then
-       sed -i "s@^Background=.*@Background=/usr/share/wallpapers/Enigma - 1306 - Default/contents/images/2560x1600.png@"  /etc/lightdm/lightdm-kde-greeter.conf
+       sed -i "s@^Background=.*@Background=/usr/share/wallpapers/Enigma - 1306 - Login/contents/images/2560x1600.png@"  /etc/lightdm/lightdm-kde-greeter.conf
       fi
     ;;
     abort-upgrade|abort-remove|abort-deconfigure)
