@@ -1,3 +1,9 @@
+netrunner-system (1.0.31) enigma-1306; urgency=low
+
+  * RC2
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 03 Jun 2013 12:11:28 +0100
+
 netrunner-system (1.0.30) enigma-1306; urgency=low
 
   * RC1
