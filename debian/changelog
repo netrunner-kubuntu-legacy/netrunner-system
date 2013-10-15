@@ -1,3 +1,10 @@
+netrunner-system (1.0.35) saucy; urgency=low
+
+  * Bump version for next Netrunner release
+  * Change distro name to saucy
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 15 Oct 2013 11:43:56 +0200
+
 netrunner-system (1.0.34) enigma-1306; urgency=low
 
   * RC6
