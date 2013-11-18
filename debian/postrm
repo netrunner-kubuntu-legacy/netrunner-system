@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Remove PA fix
+function fix_pa_not_remembering_volume {
+    dpkg-divert --package netrunner-system --remove --rename --divert /etc/pulse/default.pa /etc/pulse/default.pa.orig
+}
+
+fix_pa_not_remembering_volume
