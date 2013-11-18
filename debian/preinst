@@ -2,7 +2,7 @@
 
 # Fix remembering audio setup for PulseAudio
 function fix_pa_not_remembering_volume {
-    dpkg-divert --package netrunner-system --add --rename --divert /etc/pulse/default.pa /etc/pulse/default.pa.orig
+    dpkg-divert --package netrunner-system --add --rename --divert /etc/pulse/default.pa.orig /etc/pulse/default.pa
 }
 
 fix_pa_not_remembering_volume
