@@ -4,6 +4,6 @@
 function fix_pa_not_remembering_volume {
     dpkg-divert --package netrunner-system --add --rename --divert /etc/pulse/default.pa.orig /etc/pulse/default.pa
 }
-
-fix_pa_not_remembering_volume
- 
+if [ install = "$1" -o upgrade = "$1" ]; then
+  fix_pa_not_remembering_volume
+fi 
