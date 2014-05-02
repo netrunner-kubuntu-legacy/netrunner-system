@@ -1,5 +1,28 @@
 ChangelogURI: http://changelogs.netrunner-os.com/changelogs/pool/%s/%s/%s/%s_%s/changelog
 
+Suite: frontier-14
+RepositoryType: deb
+BaseURI: http://packages.netrunner-os.com/
+MatchURI: packages.netrunner-os.com
+MirrorsFile-amd64: /usr/share/python-apt/templates/Netrunner.mirrors
+MirrorsFile-i386: /usr/share/python-apt/templates/Netrunner.mirrors
+Description: Netrunner 14 'Frontier'
+Component: main
+CompDescription: Main packages
+CompDescriptionLong: Main packages
+Component: unstable
+CompDescription: Unstable packages
+CompDescriptionLong: Unstable packages
+Component: restricted
+CompDescription: Restricted packages
+CompDescriptionLong: Restricted packages
+Component: universe
+CompDescription: Universe packages
+CompDescriptionLong: Universe packages
+Component: multiverse
+CompDescription: Multiverse packages
+CompDescriptionLong: Multiverse packages
+
 Suite: enigma-1306
 RepositoryType: deb
 BaseURI: http://packages.netrunner-os.com/
