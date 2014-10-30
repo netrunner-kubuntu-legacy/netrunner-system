@@ -1,4 +1,0 @@
-
-# OpenDNS Fallback (configured by Netrunner in /etc/resolvconf/resolv.conf.d/tail).
-nameserver 208.67.222.222
-nameserver 208.67.220.220

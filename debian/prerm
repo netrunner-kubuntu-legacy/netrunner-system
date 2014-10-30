@@ -20,12 +20,12 @@ function fix_pa_not_remembering_volume {
 }
 
 case "$1" in
-    upgrade|deconfigure)
-                update-rc.d -f netrunner-system remove
-        ;;
+#     upgrade|deconfigure)
+#                 update-rc.d -f netrunner-system remove
+#         ;;
     remove|abort-install|disappear|purge)
 		fix_pa_not_remembering_volume ;
-		update-rc.d -f netrunner-system remove
+# 		update-rc.d -f netrunner-system remove
 	;;
     failed-upgrade)
         ;;
