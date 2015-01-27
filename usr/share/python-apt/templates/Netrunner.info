@@ -2,11 +2,42 @@ ChangelogURI: http://changelogs.netrunner-os.com/changelogs/pool/%s/%s/%s/%s_%s/
 
 Suite: utopic
 RepositoryType: deb
-BaseURI: http://packages.netrunner-os.com/
-MatchURI: packages.netrunner-os.com
-MirrorsFile-amd64: /usr/share/python-apt/templates/Netrunner.mirrors
-MirrorsFile-i386: /usr/share/python-apt/templates/Netrunner.mirrors
+BaseURI: http://ports.ubuntu.com/ubuntu-ports/
+MatchURI: ports.ubuntu.com/ubuntu-ports
+BaseURI-amd64: http://archive.ubuntu.com/ubuntu
+MatchURI-amd64: archive.ubuntu.com/ubuntu
+BaseURI-i386: http://archive.ubuntu.com/ubuntu
+MatchURI-i386: archive.ubuntu.com/ubuntu
+MirrorsFile-amd64: Ubuntu.mirrors
+MirrorsFile-i386: Ubuntu.mirrors
 Description: Netrunner 15 'Prometheus'
+Component: main
+CompDescription: Main packages
+CompDescriptionLong: Main packages
+Component: unstable
+CompDescription: Unstable packages
+CompDescriptionLong: Unstable packages
+Component: restricted
+CompDescription: Restricted packages
+CompDescriptionLong: Restricted packages
+Component: universe
+CompDescription: Universe packages
+CompDescriptionLong: Universe packages
+Component: multiverse
+CompDescription: Multiverse packages
+CompDescriptionLong: Multiverse packages
+
+Suite: trusty
+RepositoryType: deb
+BaseURI: http://ports.ubuntu.com/ubuntu-ports/
+MatchURI: ports.ubuntu.com/ubuntu-ports
+BaseURI-amd64: http://archive.ubuntu.com/ubuntu
+MatchURI-amd64: archive.ubuntu.com/ubuntu
+BaseURI-i386: http://archive.ubuntu.com/ubuntu
+MatchURI-i386: archive.ubuntu.com/ubuntu
+MirrorsFile-amd64: Ubuntu.mirrors
+MirrorsFile-i386: Ubuntu.mirrors
+Description: Netrunner 14 'Frontier'
 Component: main
 CompDescription: Main packages
 CompDescriptionLong: Main packages
@@ -25,10 +56,14 @@ CompDescriptionLong: Multiverse packages
 
 Suite: frontier-14
 RepositoryType: deb
-BaseURI: http://packages.netrunner-os.com/
-MatchURI: packages.netrunner-os.com
-MirrorsFile-amd64: /usr/share/python-apt/templates/Netrunner.mirrors
-MirrorsFile-i386: /usr/share/python-apt/templates/Netrunner.mirrors
+BaseURI: http://ports.ubuntu.com/ubuntu-ports/
+MatchURI: ports.ubuntu.com/ubuntu-ports
+BaseURI-amd64: http://archive.ubuntu.com/ubuntu
+MatchURI-amd64: archive.ubuntu.com/ubuntu
+BaseURI-i386: http://archive.ubuntu.com/ubuntu
+MatchURI-i386: archive.ubuntu.com/ubuntu
+MirrorsFile-amd64: Ubuntu.mirrors
+MirrorsFile-i386: Ubuntu.mirrors
 Description: Netrunner 14 'Frontier'
 Component: main
 CompDescription: Main packages
