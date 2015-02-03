@@ -4,6 +4,13 @@
 function fix_pa_not_remembering_volume {
     dpkg-divert --package netrunner-system --add --rename --divert /etc/pulse/default.pa.orig /etc/pulse/default.pa
 }
+
+# Grub customization for default linux entries
+function grub_customization {
+  dpkg-divert --package netrunner-system --add --rename --divert /usr/share/netrunner/grub_10_linux.orig /etc/grub.d/10_linux
+}
+
 if [ install = "$1" -o upgrade = "$1" ]; then
   fix_pa_not_remembering_volume
+  grub_customization
 fi 

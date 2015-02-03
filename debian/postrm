@@ -1,8 +1,16 @@
 #!/bin/bash
-# prerm script
-# see: dh_installdeb(1)
 
 set -e
+
+# Remove PA fix
+function fix_pa_not_remembering_volume {
+    dpkg-divert --package netrunner-system --remove --rename --divert /etc/pulse/default.pa.orig /etc/pulse/default.pa
+}
+
+# Remove grub customizations
+function grub_customization {
+  dpkg-divert --package netrunner-system --add --rename --divert /usr/share/netrunner/grub_10_linux.orig /etc/grub.d/10_linux
+}
 
 # summary of how this script can be called:
 #        * <prerm> `remove'
@@ -17,16 +25,14 @@ set -e
 
 
 case "$1" in
-    upgrade|deconfigure)
-                update-rc.d -f netrunner-system remove
-        ;;
     remove|abort-install|disappear|purge)
-		update-rc.d -f netrunner-system remove
+		fix_pa_not_remembering_volume ;
+		grub_customization ;
 	;;
     failed-upgrade)
         ;;
     *)
-        echo "prerm called with unknown argument \`$1'" >&2
+        echo "postrm called with unknown argument \`$1'" >&2
         exit 1
     ;;
 esac
@@ -37,5 +43,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
