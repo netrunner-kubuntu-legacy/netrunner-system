@@ -109,11 +109,12 @@ linux_entry ()
   args="$4"
   osversion="$(lsb_release -d -s)"
   machine="$(uname -m)"
-  if [ "$machine" == "x86_64" ]; then
+  if [ "$machine" = "x86_64" ]; then
     plattform="64Bit"
   else 
     # This only works for x86 architecture
     plattform="32Bit"
+  fi
   os="$osversion - $plattform"
 
   if [ -z "$boot_device_id" ]; then
