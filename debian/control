@@ -9,6 +9,6 @@ Package: netrunner-system
 Architecture: all
 Conflicts: plasma-netbook, kubuntu-desktop
 Replaces: plasma-netbook, kubuntu-desktop
-Depends: plymouth-theme-netrunner-logo, plymouth-theme-netrunner-text
+Recommends: plymouth-theme-netrunner-logo, plymouth-theme-netrunner-text
 Description: Netrunner System Base Package
  Netrunner information and adjustment system.
