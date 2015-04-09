@@ -27,7 +27,7 @@ function grub_customization {
 case "$1" in
     remove|abort-install|disappear|purge)
 		fix_pa_not_remembering_volume ;
-		grub_customization ;
+		#grub_customization ;
 	;;
     failed-upgrade)
         ;;

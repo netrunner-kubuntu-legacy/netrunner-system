@@ -12,5 +12,5 @@ function grub_customization {
 
 if [ install = "$1" -o upgrade = "$1" ]; then
   fix_pa_not_remembering_volume
-  grub_customization
+  #grub_customization
 fi 
