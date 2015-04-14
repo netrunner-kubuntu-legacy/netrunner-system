@@ -1,5 +1,32 @@
 ChangelogURI: http://changelogs.netrunner-os.com/changelogs/pool/%s/%s/%s/%s_%s/changelog
 
+Suite: vivid
+RepositoryType: deb
+BaseURI: http://ports.ubuntu.com/ubuntu-ports/
+MatchURI: ports.ubuntu.com/ubuntu-ports
+BaseURI-amd64: http://archive.ubuntu.com/ubuntu
+MatchURI-amd64: archive.ubuntu.com/ubuntu
+BaseURI-i386: http://archive.ubuntu.com/ubuntu
+MatchURI-i386: archive.ubuntu.com/ubuntu
+MirrorsFile-amd64: Ubuntu.mirrors
+MirrorsFile-i386: Ubuntu.mirrors
+Description: Netrunner 16
+Component: main
+CompDescription: Main packages
+CompDescriptionLong: Main packages
+Component: unstable
+CompDescription: Unstable packages
+CompDescriptionLong: Unstable packages
+Component: restricted
+CompDescription: Restricted packages
+CompDescriptionLong: Restricted packages
+Component: universe
+CompDescription: Universe packages
+CompDescriptionLong: Universe packages
+Component: multiverse
+CompDescription: Multiverse packages
+CompDescriptionLong: Multiverse packages
+
 Suite: utopic
 RepositoryType: deb
 BaseURI: http://ports.ubuntu.com/ubuntu-ports/
